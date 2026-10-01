@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:whitesmoke;
+    color:black;
+}
+#rps{
+    font-family:italic ;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: capitalize;
+    /* background-color:#DCC5B2 ; */
+}
+#head{
+    margin-top: 50px;
+    text-align: center;
+}
+.conten{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+
+#rock{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    text-transform: capitalize;
+    font-size: x-large;
+    background-color: rgb(212, 239, 247); 
+    border: solid; 
+}
+#rock:hover{
+    background-color:#8ACBD0;
+    color: #093C5D;   
+}
+#rock:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#paper{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    font-size: x-large;
+    background-color: rgb(212, 239, 247);
+    border: solid; 
+}
+#paper:hover{
+     background-color:#8ACBD0;
+     color: #093C5D; 
+}
+#paper:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#sisor{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50% ;
+    font-size : x-large;
+    background-color:  rgb(212, 239, 247);
+    border: solid; 
+} 
+#sisor:hover{
+     background-color:#8ACBD0;
+     color: #093C5D; 
+}
+#sisor:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ 
+
+#space{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px ;
+}
+ 
+#msg{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px ;
+}
+ 
+
+   .replay {
+    display: block;
+    margin: 20px auto;
+
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: #ffb6c1;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.replay:hover {
+    background-color: #ff8fab;
+    transform: scale(1.05);
+}
+
+.replay:active {
+    transform: scale(0.95);
+}
