@@ -14,3 +14,8 @@ A simple Rock Paper Scissors game built while learning JavaScript.
 - HTML
 - CSS
 - JavaScript
+
+
+## 📸 Preview
+
+![RPS Game](img/rps-game.png)
